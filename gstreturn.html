@@ -27,6 +27,14 @@
 
     <!-- Theme Styles -->
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
     
   </head>
   <!-- End Head -->
@@ -89,7 +97,7 @@
                 
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                   <li class="nav-item mr-4 mb-2 mb-lg-0">
-                    <a class="nav-link active" href="services.html">REGISTRATION</a>
+                    <a class="nav-link active" href="gstregister.html">REGISTRATION</a>
                   </li>
               <li class="nav-item mr-4 mb-2 mb-lg-0">
                 <a class="nav-link" href="contacts.html">CONTACTS</a>
@@ -132,7 +140,7 @@
     	<div class="auto-container">
         	
             <!--Case Info Section-->
-            <div class="case-info-section">
+            <div class="case-info-section" style="margin-right: 100px; margin-left: 100px;">
             	<div class="row clearfix">
                 	
                     <!--Title Column-->
@@ -178,7 +186,7 @@
             </div>
             
             <!--Case Goal Section-->
-            <div class="case-goal-section">
+            <div class="case-goal-section" style="margin-right: 100px; margin-left: 100px;">
             	<div class="row clearfix">
                 	
                     <!--Title Column-->
@@ -219,9 +227,144 @@
                 </div>
             </div>
             <!--End Case Goal Section-->
+            <h2 style="margin-right: 100px; margin-left: 100px;">Types of GST Returns :</h2>
+            <table style="margin-right: 50px; margin-left: 50px;">
+        <tr>
+            <th>SL No.</th>
+            <th style="margin-right: 50px; margin-left: 50px;">Title</th>
+            <th>Particulars</th>
+            <th>Person Required to Furnish Return</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>GSTR-1</td>
+            <td>Details of outward supplies of taxable goods or services or both effected.</td>
+            <td>All tyes of Registered Person, other than:- 
+                a. Input Service Distributor
+                b. Non-Resident Taxable Person
+                c. Person paying tax under Composition Levy
+                d. Person required to deduct / collect tax at source
+            </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>GSTR-1A</td>
+            <td>Details of inward supplies added, corrected or deleted by the recipient in his in his form GSTR-2 shall be made available to the supplier electronically</td>
+            <td>Same as person required to furnish return as per GSTR -1</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>GSTR-2</td>
+            <td>Details of inward supplies of taxable goods or services or both claiming input tax credit</td>
+            <td>Same as person required to furnish return as per GSTR -1</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>GSTR-2A</td>
+            <td>Details of inward supplies made available to the recipient on the basis of FORM GSTR-1 furnished by the supplier</td>
+            <td>Same as person required to furnish return as per GSTR -1</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>GSTR-3</td>
+            <td>Monthly return on the basis of finalization of details of outward supplies and inward supplies along with the payment of tax.</td>
+            <td>Same as person required to furnish return as per GSTR -1</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>GSTR-3B</td>
+            <td>Monthly Simple Return in which summary of outward supplies along with Input Tax Credit is declared  and payment of tax is affected by taxpayer.</td>
+            <td>Same as person required to furnish return as per GSTR -1</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>GSTR-4/CMP-08*</td>
+            <td>Statement of self-assessed tax Quarterly Return for compounding taxable persons.</td>
+            <td>Registered person paying tax under section 10 i.e. taxpayers who have opted for the Composition Scheme under GST.</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>GSTR-4A</td>
+            <td>Auto-drafted details for registered person opting for composition levy on the basis of FORM GSTR-4 furnished by the supplier.</td>
+            <td>Registered person paying tax under section 10 i.e. person paying composition levy in lieu of tax.</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>GSTR-5</td>
+            <td>Return for Non-Resident foreign taxable persons</td>
+            <td>Registered Non-Resident Taxable person</td>
+        </tr><tr>
+            <td>10.</td>
+            <td>GSTR-5A</td>
+            <td>Return for Non-Resident Online Information and Database Access or Retrieval (OIDAR) services provider .</td>
+            <td>Non-Resident Online Information and Database Access or Retrieval (OIDAR) services provider.</td>
+        </tr>
+        <tr>
+            <td>11.</td>
+            <td>GSTR-6</td>
+            <td>Input Service Distributor return.</td>
+            <td>Taxable person registered as Input Service Distributor.</td>
+        </tr>
+        <tr>
+            <td>12.</td>
+            <td>GSTR-6A</td>
+            <td>System generated statement of inward supplies based on the details that are uploaded by the counterparty supplier till ISD taxpayer submits the GSTR-6 for the same tax period.</td>
+            <td>Taxable person registered as Input Service Distributor.</td>
+        </tr>
+        <tr>
+            <td>13.</td>
+            <td>GSTR-7</td>
+            <td>Return for authorities deducting tax at source.</td>
+            <td>Registered person required to deduct tax under section 51</td>
+        </tr>
+        <tr>
+            <td>14.</td>
+            <td>GSTR-8</td>
+            <td>Details of supplies effected through e-commerce operator and the amount of tax collected as required under sub-section (52)</td>
+            <td>Registered  as e-commerce operator</td>
+        </tr>
+        <tr>
+            <td>15.</td>
+            <td>GSTR-9**</td>
+            <td>Annual Return</td>
+            <td>Registered person shal be required to submit Annual return other than:- 
+                a. Input Service Distributor
+                b. Non-Resident Taxable Person
+                c. Person required to deduct / collect tax at source</td>
+
+        </tr>
+        <tr>
+            <td>16.</td>
+            <td>GSTR-9A***</td>
+            <td>Simplified Annual return by Compounding taxable persons registered under section 10</td>
+            <td>Taxpayers who have registered under the Composition Scheme in a financial year.</td>
+        </tr>
+        <tr>
+            <td>17.</td>
+            <td>GSTR-9C****</td>
+            <td>Statement of Reconciliation 
+            (Between the audited financial statements of the taxpayer and the annual return under GSTR-9)
+            </td>
+            <td>All taxpayers registered under GST whose turnover exceeds Rs.2 crore in a financial year. The registered person has to get their books of accounts audited by a Chartered/ Cost Accountant.</td>
+
+        </tr>
+        <tr>
+            <td>18.</td>
+            <td>GSTR-10</td>
+            <td>Final Return, Once. When registration is cancelled or surrendered.</td>
+            <td>Taxable person whose registration has been cancelled or surrendered, has to be filed within three months of the date of cancellation or date of cancellation order, whichever is later.</td>
+        </tr>
+        <tr>
+            <td>19.</td>
+            <td>GSTR-11</td>
+            <td>Details of inward supplies to be furnished by a person having UIN and claiming refund.</td>
+            <td>person having UIN  in order to get a refund under GST.</td>
+        </tr>
+
+    </table>
 
             <!--Case Goal Section-->
-            <div class="case-goal-section">
+            <div class="case-goal-section" style="margin-right: 100px; margin-left: 100px;">
             	<div class="row clearfix">
                 	
                     <!--Title Column-->
@@ -266,10 +409,142 @@
             </div>
             <!--End Case Goal Section-->
             
-          
+           <h2 style="margin-right: 100px; margin-left: 100px;">Due Dates for Filing of Return in GST:</h2>
+            <table style="margin-right: 50px; margin-left: 50px;">
+        <tr>
+            <th>SL No.</th>
+            <th style="margin-right: 50px; margin-left: 50px;">Return Forms</th>
+            <th>Due Dates</th>
+            <th>Frequency of return</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>GSTR-1</td>
+            <td>11th* of the next month with effect from October 2018.
+            30th of the month succeeding quarter.
+              <br>*Previously, the due date was 10th of the next month
+            </td>
+            <td>Monthly for the taxpayer, which turnover is more than Rs. 1.5 crore.
+
+                Quarterly for the taxpayer, which turnover is less than Rs. 1.5 crore.
+
+            </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>GSTR-1A</td>
+            <td>Month related to after Filing GSTR-1</td>
+            <td>Monthly/ Quarterly</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>GSTR-2</td>
+            <td>15th of Next Month</td>
+            <td>Monthly <br>(still suspended)</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>GSTR-2A</td>
+            <td>Available for view only</td>
+            <td>Monthly/ Quarterly</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>GSTR-3</td>
+            <td>20th of Next Month</td>
+            <td>Every Calender month or part thereof<br>(still suspended)</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>GSTR-3B</td>
+            <td>20th of Next Month***</td>
+            <td>Every Calender month or part thereof</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>GSTR-4/CMP-08*</td>
+            <td>18th of the month succeeding quarter.</td>
+            <td>Each quarter or part thereof</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>GSTR-4A</td>
+            <td>Available for view only</td>
+            <td>Each quarter or part thereof</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>GSTR-5</td>
+            <td>20th from end of the month or within 7 days after the last day of validity of registration whichever is earlier</td>
+            <td>Every Calender month or part thereof</td>
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td>GSTR-5A</td>
+            <td>20th from end of the month or within 7 days after the last day of validity of registration whichever is earlier</td>
+            <td>Every Calender month or part thereof</td>
+        </tr>
+        <tr>
+            <td>11.</td>
+            <td>GSTR-6</td>
+            <td>13th of Next Month</td>
+            <td>Every Calender month or part thereof</td>
+        </tr>
+        <tr>
+            <td>12.</td>
+            <td>GSTR-6A</td>
+            <td>Available for view only</td>
+            <td>Monthly </td>
+        </tr>
+        <tr>
+            <td>13.</td>
+            <td>GSTR-7</td>
+            <td>10th of Next Month</td>
+            <td>Monthly </td>
+        </tr>
+        <tr>
+            <td>14.</td>
+            <td>GSTR-8</td>
+            <td>10th of Next Month</td>
+            <td>Monthly </td>
+        </tr>
+        <tr>
+            <td>15.</td>
+            <td>GSTR-9</td>
+            <td>31st December of Next Financial Year*</td>
+            <td>Yearly</td>
+
+        </tr>
+        <tr>
+            <td>16.</td>
+            <td>GSTR-9A</td>
+            <td>31st December of Next Financial Year*</td>
+            <td>Yearly</td>
+        </tr>
+        <tr>
+            <td>17.</td>
+            <td>GSTR-9C</td>
+            <td>31st December of Next Financial Year*</td>
+            <td>Yearly</td>
+
+        </tr>
+        <tr>
+            <td>18.</td>
+            <td>GSTR-10</td>
+            <td>Within three months of the date of cancellation or date of cancellation order, whichever is later.</td>
+            <td>One Time</td>
+        </tr>
+        <tr>
+            <td>19.</td>
+            <td>GSTR-11</td>
+            <td>28th of the month following the month for which statement is filed</td>
+            <td>Monthly</td>
+        </tr>
+
+    </table>
             
             <!--Case Solutions Section-->
-            <section class="case-solutions-section">
+            <section class="case-solutions-section" style="margin-right: 100px; margin-left: 100px;">
             	<div class="row clearfix">
                 	
                     <!--Title Column-->
@@ -342,8 +617,219 @@
             </section>
             <!--End Case Solutions Section-->
 
+            <h2 style="margin-right: 100px; margin-left: 100px;">Forms applicable to composition taxpayer under GST:</h2>
+            <table style="margin-right: 100px; margin-left: 100px;">
+        <tr>
+            <th>SL No.</th>
+            <th style="margin-right: 50px; margin-left: 50px;">GST Forms</th>
+            <th>Particulars</th>
+            
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>GST CMP-01</td>
+            <td>Intimation to pay tax under section 10 (composition levy) by users who migrated to GST</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>GST CMP-02</td>
+            <td>Intimation to pay tax under section 10 (composition levy)</td>
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>GST CMP-03</td>
+            <td>Intimation of details of stock on date of opting for composition levy (Only for persons registered under the existing law migrating on the appointed day)</td>
+            
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>GST CMP-04</td>
+            <td>Intimation/Application for withdrawal from composition Levy</td>
+            
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>GST CMP-05</td>
+            <td>Notice for denial of option to pay tax under section 10</td>
+            
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>GST CMP-06</td>
+            <td>Reply to the notice to show cause</td>
+            
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>GST CMP-07</td>
+            <td>Order for acceptance / rejection of reply to show cause notice</td>
+            
+        </tr>
+      </table>
+      <br><br><br><br>
+
+      <h2 style="margin-right: 100px; margin-left: 100px;">Forms applicable to Tax Payment under GST</h2>
+            <table style="margin-right: 100px; margin-left: 100px;">
+        <tr>
+            <th>SL No.</th>
+            <th style="margin-right: 50px; margin-left: 50px;">GST Forms</th>
+            <th>Particulars</th>
+            
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>GST PMT-01</td>
+            <td>Electronic Liability Register of registered person
+                (Part–I: Return related liabilities Electronic Liability Register of taxable person)
+                (Part–II: Other than return related liabilities)
+              </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>GST PMT-02</td>
+            <td>Electronic Credit Ledger</td>
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>GST PMT-03</td>
+            <td>Order for re-credit of the amount to cash or credit ledger on rejection of refund claim</td>
+            
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>GST PMT-04</td>
+            <td>Application for intimation of discrepancy in Electronic Credit Ledger/Cash Ledger/Liability Register</td>
+            
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>GST PMT-05</td>
+            <td>Electronic Cash Ledger</td>
+            
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>GST PMT-06</td>
+            <td>Challan For Deposit of Goods and Services Tax</td>
+            
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>GST PMT-07</td>
+            <td>Application for intimating discrepancy in making payment</td>
+            
+        </tr>
+      </table>
+       <br><br><br><br>
+
+      <h2 style="margin-right: 100px; margin-left: 100px;">Forms applicable to Input Tax Credit (ITC) under GST</h2>
+            <table style="margin-right: 100px; margin-left: 100px;">
+        <tr>
+            <th>SL No.</th>
+            <th style="margin-right: 50px; margin-left: 50px;">GST Forms</th>
+            <th>Particulars</th>
+            
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>GST ITC-01</td>
+            <td>Declaration for claim of input tax credit under sub-section (1) of section 18.
+              </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>GST ITC-02</td>
+            <td>Declaration for transfer of ITC in case of sale, merger, demerger, amalgamation, lease or transfer of a business under sub-section (3) of section 18.</td>
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>GST ITC-03</td>
+            <td>Declaration for intimation of ITC reversal on inputs, inputs contained in semi-finished and finished goods and capital goods in stock under sub-section (4) of section 18.</td>
+            
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>GST ITC-04</td>
+            <td>Details of goods/capital goods sent to job worker and received back.</td>
+            
+        </tr>
+      </table>
+      <br><br><br><br>
+      <h2 style="margin-right: 100px; margin-left: 100px;">Forms applicable to Tax Refund under GST</h2>
+            <table style="margin-right: 100px; margin-left: 100px;">
+        <tr>
+            <th>SL No.</th>
+            <th style="margin-right: 50px; margin-left: 50px;">GST Forms</th>
+            <th>Particulars</th>
+            
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>GST RFD-01</td>
+            <td>Application for Refund</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>GST RFD-02</td>
+            <td>Acknowledgement</td>
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>GST RFD-03</td>
+            <td>Deficiency Memo</td>
+            
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>GST RFD-04</td>
+            <td>Provisional Refund Order</td>
+            
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>GST RFD-05</td>
+            <td>Payment Advice</td>
+            
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>GST RFD-06</td>
+            <td>Refund Sanction/ Rejection Order/Interest on delayed refund order (same as refund order)</td>
+            
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>GST RFD-07</td>
+            <td>Order for complete adjustment of sanctioned Refund</td>
+            
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>GST RFD-08</td>
+            <td>Notice for rejection of application for refund</td>
+            
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>GST RFD-09</td>
+            <td>Reply to show cause notice</td>
+            
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td>GST RFD-10</td>
+            <td>Application for Refund by any specialize agency of UN or Multilateral Financial Institution and Organization, Consulate or Embassy of foreign countries, etc</td>
+            
+        </tr>
+      </table>
+      <br><br>
+
              <!--Case Result Section-->
-            <section class="case-result-section">
+            <section class="case-result-section" style="margin-right: 100px; margin-left: 100px;">
             	<div class="row clearfix">
                 	
                     <!--Title Column-->
@@ -414,7 +900,7 @@
             
     
     <!--We Are Section-->
-    <section class="we-are-section">
+    <section class="we-are-section" style="margin-right: 100px; margin-left: 100px;">
     	<div class="auto-container">
         	<div class="row clearfix">
             	<!--Content Column-->
@@ -506,14 +992,14 @@
     	<div class="auto-container">
         	<!--Sec Title-->
             <div class="sec-title light centered">
-            	<h2>Why Choose Us</h2>
+            	<h2 style="text-align:center; color:white;">Why Choose Us</h2>
             </div>
             <div class="row clearfix">
             	
                 <!--Services Block Three-->
                 <div class="services-section-three col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<h3><a href="gstreturn.html">24 Years Experience</a></h3>
+                    	<h3><a href="gstreturn.html">15 Years Experience</a></h3>
                         <div class="title">In this Industry</div>
                         <div class="image">
                         	<img src="assets/img/services-4.png" alt="" />
